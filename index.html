@@ -16,9 +16,6 @@
 		var mediaStreamSource = context.createMediaStreamSource(s);
 		recorder = new Recorder(mediaStreamSource);
 		recorder.record();
-
-		// audio loopback
-		// mediaStreamSource.connect(context.destination);
 	}
 
 	window.URL = window.URL || window.webkitURL;
@@ -39,6 +36,7 @@
 		recorder.stop();
 	}
 	</script>
-	<a id="audioOgg" href="">Descargar</a> 
+        <br />
+	<a style="display: none" id="audioOgg" href="">Download</a> 
 </body>
 </html>
