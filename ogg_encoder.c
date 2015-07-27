@@ -83,7 +83,6 @@ void ogg_encoder_write(struct ogg_encoder *encoder, float *buffer_left, float *b
 	float **buffer = vorbis_analysis_buffer(&encoder->vd, samples_count);
 	int i;
 
-	printf("samples_count=%d\n", samples_count);
 	for(i = 0; i < samples_count; i++) {
 		buffer[0][i] = buffer_left[i];
 		buffer[1][i] = buffer_right[i];

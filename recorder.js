@@ -1,3 +1,7 @@
+/* (c) 2015 Felipe Astroza A.
+* Under BSD License
+* Based on https://github.com/rokgregoric/html5record/blob/master/recorder.js
+*/
 var worker = new Worker('ogg_encoder_worker.js');
 
 (function(window){
