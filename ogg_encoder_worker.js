@@ -1,3 +1,6 @@
+/* (c) 2015 Felipe Astroza A.
+* Under BSD License
+*/
 importScripts('ogg_encoder.js');
 
 self.do_write_data = function(bufferPtr, bufferLength) {
